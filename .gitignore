@@ -13,6 +13,7 @@ build/
 .settings
 .springBeans
 .sts4-cache
+artifacts
 
 ### IntelliJ IDEA ###
 .idea
@@ -39,3 +40,5 @@ out/
 *.zip
 *.tar.gz
 *.rar
+
+/artifacts
