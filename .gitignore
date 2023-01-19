@@ -45,5 +45,5 @@ out/
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**
 !**/src/test/**
-
+!artifacts/app-ibank-build-for-testers.jar
 
