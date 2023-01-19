@@ -1,9 +1,9 @@
+Thumbs.db*
+.DS_Store
 HELP.md
 .gradle
 build/
-!gradle/wrapper/gradle-wrapper.jar
-!**/src/main/**
-!**/src/test/**
+cov/
 
 ### STS ###
 .apt_generated
@@ -13,7 +13,6 @@ build/
 .settings
 .springBeans
 .sts4-cache
-artifacts
 
 ### IntelliJ IDEA ###
 .idea
@@ -31,6 +30,7 @@ out/
 
 ### VS Code ###
 .vscode/
+*.log
 
 ### Package Files ###
 *.jar
@@ -41,5 +41,9 @@ out/
 *.tar.gz
 *.rar
 
-/artifacts/app-ibank-build-for-testers.jar
+### Exclusions ###
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+
 
